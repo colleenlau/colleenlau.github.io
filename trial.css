@@ -39,7 +39,6 @@ p {
 }
 
 .links{
- 	padding:5%;
  	text-align: center;
 }
 
@@ -80,6 +79,12 @@ p {
 	text-align: center;
 }
 
+#p4{
+    font-family: 'Roboto Condensed', sans-serif;
+	font-size: 12px;
+	color:#fff;
+	text-align: center;
+}
 .philosophy {
 	background: url("img/philosophyx.jpeg");
     background-attachment: fixed;
@@ -161,11 +166,6 @@ p {
 	text-align: center;
   }
 
-.cardResume{
-	display: inline-block;
-	max-width:700px;
-}
-
 .cardResume:hover{
 	box-shadow: 4px 8px 16px 4px rgba(255,255,255,0.2);
 }
@@ -177,6 +177,63 @@ p {
 
 .hover:hover{
 	box-shadow: 4px 8px 16px 4px rgba(255,255,255,0.2);
+}
+
+.otherTeaching{
+	font-size:571%;
+	font-family: 'Playfair Display', serif;
+	color:#fff;
+	text-align: center;
+	padding:10%;
+}
+
+.otherTeachingInfo{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 30%;
+	color:#fff;
+	text-align: center;
+	padding-top:5%;
+}
+
+.profDev{
+	background: url("img/pd.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    min-height: 500x;
+    padding: 10%;
+    
+
+    font-size:571%;
+	font-family: 'Playfair Display', serif;
+	color:#fff;
+	text-align: center;
+
+}
+
+.pd {
+	background: black;
+	max-height: 500px;
+    padding: 2% 1% 5% 1%;
+
+}
+
+.pdCard {
+    display: inline-block;
+    background-color: rgba(255,255,255,0.5);
+    padding: 5% 1% 5% 1%;
+    max-height: 300px;
+    min-width: 300px;
+    max-width: 320px;
+    border-radius: 3px;
+    margin: 1px;
+
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 120%;
+	color:#000;
+	text-align: center;
+  
 }
 
 .perfOpp{
@@ -194,8 +251,16 @@ p {
 	padding:10%;
 }
 
-.holder{
-	background-color:black;
+.perfOppInfo{ 
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 150%;
+	color:#fff;
+	text-align: center;
+	padding: 5%;
+}
+
+.lessonPlans{
+	background: url("img/LP.jpeg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -207,5 +272,12 @@ p {
 	color:#fff;
 	text-align: center;
 	padding:10%;
+}
+
+.lpInfo{
+    background-color: black;
+	padding: 5%;
+	min-height: 300px;
+    text-align: center;
 }
 
